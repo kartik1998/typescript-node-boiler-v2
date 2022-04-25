@@ -22,13 +22,13 @@
     "express": "^4.17.3",
     "module-alias": "^2.2.2",
     "morgan": "^1.10.0",
-    "omnia-logger": "^2.0.2",
     "typescript": "^4.6.3"
   },
   "_moduleAliases": {
     "@lib": "dist/lib",
     "@routes": "dist/routes",
     "@root": "dist",
-    "@app": "dist/app"
+    "@app": "dist/app",
+    "@config": "dist/config"
   }
 }
