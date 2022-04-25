@@ -1,4 +1,5 @@
 require('module-alias/register');
+require('dotenv').config();
 import express from 'express';
 import out from '@lib/apiout';
 import morgan from 'morgan';
